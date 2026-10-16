@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="description" content="Sistema de gestão de ordens de serviços">
+    <meta name="keywords" content="gestão, ordens, serviços, organização, sistema, empresas, funcionários, técnico, manutenção">
+    <meta name="author" content="Vitor Hugo da Silva Araújo">
+    <title>Gestão de Ordens de Serviço</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header">   
+                <button 
+                    type="button" 
+                    class="navbar-toggle collapsed" 
+                    data-toggle="collapse" 
+                    data-target="#navbar" 
+                    aria-expanded="false"
+                >
+                </button>
+                <a class="navbar-brand">Gestão de Ordens de Serviço</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div>
+            {% block header%}{% endblock header%}
+        </div>
+        <div>
+            {% block content %}{% endblock content %}
+        </div>
+    </div>
+</body>
+</html>
