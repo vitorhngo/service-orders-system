@@ -12,4 +12,6 @@ urlpatterns = [
     ),
     path("sign-out", views.sign_out, name="sign-out"),
     path("sign-up", views.sign_up, name="sign-up"),
+    path("sign-up/register-company", views.register_company, name="register-company"),
+    path("sign-up/register-user", views.register_user, name="register-user"),
 ]
